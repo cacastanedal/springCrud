@@ -26,5 +26,6 @@ public class ProductService {
     }
 
     public void delete(Integer id) {
+        repo.deleteById(id);
     }
 }
